@@ -32,6 +32,7 @@ class StudentTest {
     }
 
     @Test
+    @DisplayName("ทดสอบการตรวจสอบ ID")
     void testIsId(){
         Student s1 = new Student("6610450358", "Jugo de naranja");
         assertTrue(s1.isId("6610450358"));
